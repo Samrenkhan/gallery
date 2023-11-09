@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    height: 100%;
+    width: 100%;
+    background-color:rgb(56, 197, 197);
+    /* flex-direction: column; */
+}
+input{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.ri-delete-bin-4-fill{
+    color: red;
+}
+
+.mainbox{
+    min-height: 100%;
+    width: 100%;
+    /* background-color:yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+    
+
+    height: 50px;
+    width: 380px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: rgb(154, 1, 101);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.bt{
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(63, 90, 90);
+    color: white;
+
+}
+.ri-edit-2-fill{
+    color: blue;
+}
